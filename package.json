@@ -6,7 +6,8 @@
     "dev": "nx dev",
     "build": "nx build",
     "start": "nx start",
-    "test": "nx test"
+    "test": "nx test",
+    "e2e": "nx run e2e:e2e"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +20,7 @@
     "zod": "^3.23.4"
   },
   "devDependencies": {
-    "@nx/cypress": "18.3.4",
+    "@nx/cypress": "^18.3.4",
     "@nx/eslint": "18.3.4",
     "@nx/eslint-plugin": "18.3.4",
     "@nx/jest": "18.3.4",

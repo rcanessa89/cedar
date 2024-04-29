@@ -9,6 +9,6 @@ export default defineConfig({
       webServerCommands: { default: 'nx run cedar:start' },
       ciWebServerCommand: 'nx run cedar:serve-static',
     }),
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:3000/sign-in',
   },
 });

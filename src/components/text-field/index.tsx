@@ -38,6 +38,8 @@ export default function TextField({
       )}
       <input
         {...props}
+        id={id}
+        type={type}
         data-testid={id}
         className={cn(inputClass, inputClassName, {
           'border-error': Boolean(error),

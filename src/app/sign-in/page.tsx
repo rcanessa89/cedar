@@ -18,19 +18,21 @@ export default function SignIn() {
       </div>
       <Title>Sign in to your account</Title>
       <TextField
+        id="email"
         className="mb-4"
         name="email"
         label="Email address"
         error={state?.errors?.email}
       />
       <TextField
+        id="password"
         className="mb-6"
         name="password"
         label="Password"
         type="password"
         error={state?.errors?.password}
       />
-      <Button full type="submit">
+      <Button full type="submit" id="sign-in">
         Sign in
       </Button>
     </form>
