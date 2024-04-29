@@ -1,0 +1,9 @@
+{
+  "name": "cedar",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": ".",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project cedar --web",
+  "targets": {}
+}
